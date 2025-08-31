@@ -5,7 +5,7 @@ In the project directory, go to cd/backend and then:
 ### `npm install`
 ### `npm run server`
 
-Runs the backend server  in the development mode.\
+Runs the backend server  in the development mode.
 **Currently, the backend is connected to a local MSSQL server with staging data, thus will not work. However, this can be customized using environment variables to connect with live data sources.**
 
 
