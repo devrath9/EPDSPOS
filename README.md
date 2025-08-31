@@ -6,6 +6,7 @@ In the project directory, go to cd/backend and then:
 ### `npm run server`
 
 Runs the backend server  in the development mode.\
+Currently, the backend is connected to a local MSSQL server with staging data, thus will not work. However, this can be customized using environment variables to connect with live data sources.\
 
 
 Similarly go to cd/frontend and then:
@@ -21,7 +22,7 @@ Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 This is a full-stack application that serves as a portal for maintaining ration records, device details, transaction data, and more — all presented in a tabular format for the public distribution system across the state.
 
-Currently, the backend is connected to a remote server with staging data. However, this can be customized using environment variables to connect with live data sources.
+
 
 ---
 
