@@ -1,0 +1,60 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  
+  }
+
+  *{
+    font-family: Outfit
+    } 
+
+/* body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+} */
+.logoutcontainer {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  top: 85%; /* Adjust based on how far you want the tooltip from the button */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: orange;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.logoutcontainer:hover .tooltip {
+  opacity: 1;
+}
+
+.sidebar {
+  scrollbar-width: thin; 
+  overflow-y: hidden; /* Initially hide the scrollbar */
+  transition: overflow-y 0.3s ease; /* Smooth transition */
+  
+ } 
+
+ 
+
+.sidebar:hover {
+  overflow-y: auto; /* Show scrollbar when hovering */
+}
